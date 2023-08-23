@@ -1,4 +1,4 @@
-# My Porfolio <id="#my-portfolio">
+# My Porfolio
 
 <p align="center">
  <img width="900" src="./src/images/Preview.png" alt="preview" >
@@ -37,4 +37,4 @@ npm install
 
 This project is licensed. See the LICENSE file for more details.
 
-[⬆️ Back to top](#my-portfolio)<br>
+<!-- [⬆️ Back to top](#my-portfolio)<br> -->

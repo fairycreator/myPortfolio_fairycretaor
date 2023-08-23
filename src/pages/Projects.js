@@ -8,14 +8,53 @@ import projects from "../data/projects";
 import "../styles/Projects.css";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 
+function ProjectCard({ project }) {
+  return (
+    <div className="card-project">
+      <div className="img-container">
+        <img src={project.src} alt=" " className="img-project" />
+      </div>
+      <h2 className="title-project">{project.name}</h2>
+      <p>{project.description}</p>
+      <div className="technologies-container">
+        {project.technologies.map((tech, index) => (
+          <span key={index} className="span-technologies">
+            {tech}
+          </span>
+        ))}
+      </div>
+      <div className="links-container">
+        <a
+          href={project.repository}
+          title="Github"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiGithub />
+        </a>
+        <a
+          href={project.site}
+          title="View application"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiExternalLink />
+        </a>
+      </div>
+    </div>
+  );
+}
+
 function Projects() {
   const [typeFilter, setTypeFilter] = useState("all");
-  const filterProjects = () => {
-    if (typeFilter === "all") return projects;
-    return projects.filter(({ type }) => type.includes(typeFilter));
-  };
+
+  const filteredProjects =
+    typeFilter === "all"
+      ? projects
+      : projects.filter(({ type }) => type.includes(typeFilter));
+
   return (
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -47,58 +86,16 @@ function Projects() {
               </button>
             </div>
             <div className="projects-container">
-              {filterProjects().map(
-                (
-                  {
-                    type,
-                    name,
-                    src,
-                    repository,
-                    description,
-                    site,
-                    technologies,
-                  },
-                  index
-                ) => (
-                  <div key={index} className="card-project">
-                    <div className="img-container">
-                      <img src={src} alt=" " className="img-project" />
-                    </div>
-                    <h2 className="title-project">{name}</h2>
-                    <p>{description}</p>
-                    <div className="technologies-container">
-                      {technologies.map((tech) => (
-                        <span className="span-technologies">{tech}</span>
-                      ))}
-                    </div>
-                    <div className="links-container">
-                      <a
-                        href={repository}
-                        title="Github"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FiGithub />
-                      </a>
-                      <a
-                        href={site}
-                        title="View application"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FiExternalLink />
-                      </a>
-                    </div>
-                  </div>
-                )
-              )}
+              {filteredProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+              ))}
             </div>
           </main>
         </section>
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 
