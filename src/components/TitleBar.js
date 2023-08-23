@@ -1,14 +1,14 @@
 import React from "react";
-import '../styles/TitleBar.css';
+import "../styles/TitleBar.css";
 
 function TitleBar() {
-  return ( 
+  return (
     <section className="title-bar">
-      <p>thiago_nobrega_portfolio</p>
+      <p>andrij_csuhran_portfolio</p>
       <div className="title-btn">
-        <span className="close"/>
-        <span className="minimize"/>
-        <span className="maximize"/>
+        <span className="close" />
+        <span className="minimize" />
+        <span className="maximize" />
       </div>
     </section>
   );

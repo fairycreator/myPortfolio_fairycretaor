@@ -1,7 +1,15 @@
 const contacts = [
-  {social: 'email', href: 'mailto:thiagons@live.com', text:'thiagons@live.com'},
-  {social: 'linkedin', href: 'https://www.linkedin.com/in/thiagodanobrega/', text: "in/thiagodanobrega"},
-  {social: 'github', href: 'https://github.com/thiagodanobrega', text: "/thiagodanobrega"}
+  { social: "email", href: "chusi@mail.com", text: "chusi@mail.com" },
+  {
+    social: "linkedin",
+    href: "https://www.linkedin.com/in/andrijcsuhran/",
+    text: "in/andrijcsuhran/",
+  },
+  {
+    social: "github",
+    href: "https://github.com/fairycreator",
+    text: "/fairycreator",
+  },
 ];
 
 export default contacts;

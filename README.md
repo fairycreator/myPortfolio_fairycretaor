@@ -1,40 +1,40 @@
 # My Porfolio
 
 <p align="center">
- <img width="900" src="https://github.com/thiagodanobrega/myPortfolio/blob/master/project-preview.png?raw=true" alt="exemplo imagem" >
+ <img width="900" src="./src/images/Preview.png" alt="preview" >
 </p>
 
-## 💻 Projeto
+## 💻 Project
 
-Portfólio pessoal apresentando projetos e informações de contato.
+Personal portfolio showcasing projects and contact information.
 
-## 🚀 Tecnologias
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
+
+This project was developed using the following technologies:
 
 > Front-End: React, Context API, CSS, HTML, JavaScript
 
-## 📌 Habilidades
+## 📌 Skills
 
-Nesse projeto, fui capaz de:
+In this project, I was able to:
 
-- Trabalhar com estado e componentes
+Work with state and components
 
+## 📝 Adjustments and Improvements
 
-## 📝 Ajustes e melhorias
+The project is still in development, and the upcoming updates will focus on the following tasks:
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+- [ ] Implement unit testing;
 
-- [ ] Realizar testes unitários;
+## ⬇️ Installing Dependencies
 
-## ⬇️ Instalando dependências
+```bash
+cd src/
+npm install
+```
 
-  ```bash
-  cd src/
-  npm install
-  ``` 
+## 📄 License
 
-## 📄 Licença
+This project is licensed. See the LICENSE file for more details.
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆️ Back to top](#nome-do-projeto)<br>

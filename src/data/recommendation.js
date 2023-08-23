@@ -1,18 +1,21 @@
 const recommendation = [
   {
-    name: 'Suelen Arruda', 
-    message: '"Além de ser uma pessoa talentosíssima e com habilidades técnicas inúmeras, nos presentou com seu carisma, tranquilidade, equilíbrio. Sempre pronto a ajudar."', 
-    social: 'https://www.linkedin.com/in/suelen-arruda/'
+    name: "Oleg Blagivskuy",
+    message:
+      '"In addition to being an incredibly talented individual with numerous technical skills, he have gifted us with his charisma, calmness, and balance. Always ready to help."',
+    social: "https://www.linkedin.com/in/oleg-blagivskuy-65a586109/",
   },
+  // {
+  //   name: "Ingrid Mattos",
+  //   message:
+  //     '"In addition to being an amazing person to exchange learning experiences with, he proved to be a crucial asset in the project we were a part of. He demonstrated himself as a highly collaborative and helpful individual, contributing to the development of creative solutions for problems."',
+  //   social: "https://www.linkedin.com/in/ingrid-mattos/",
+  // },
   {
-    name: 'Ingrid Mattos', 
-    message: '"Além de ser uma pessoa incrível pra trocar aprendizados, se demonstrou peça fundamental no projeto que fizemos parte. Ele se mostrou uma pessoa muito colaborativa e prestativa, ajudando na construção de soluções para problemas com muita criatividade."', 
-    social: 'https://www.linkedin.com/in/ingrid-mattos/'
-  },
-  {
-    name: 'João Gabriel', 
-    message: '"Durante todo o projeto se mostrou muito preparado e teve papel importante nas decisões que o grupo tomou, além de ter uma comunicação muito assertiva."', 
-    social: 'https://www.linkedin.com/in/joaogrs159/'
+    name: "Dmytro Kovalevskyi",
+    message:
+      '"Throughout the project, he consistently demonstrated a high level of preparedness and played a significant role in the decisions the group made. Additionally, his communication was highly effective and precise."',
+    social: "https://www.linkedin.com/in/mosbydev/",
   },
 ];
 
