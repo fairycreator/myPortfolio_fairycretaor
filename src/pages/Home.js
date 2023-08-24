@@ -37,7 +37,7 @@ function Home() {
                 wrapper="h2"
               />
               <a
-                href="https://gitconnected.com/thiagodanobrega/resume"
+                href="https://gitconnected.com/fairycreator/resume"
                 target="_blank"
                 className="btn-download"
                 rel="noreferrer"
