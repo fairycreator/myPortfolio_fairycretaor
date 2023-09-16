@@ -11,7 +11,7 @@ import Typical from "react-typical";
 
 function Home() {
   return (
-    <body>
+    <div>
       <TitleBar />
       <section className="flex-container">
         <SideBar />
@@ -49,10 +49,10 @@ function Home() {
             <img src={image} alt=" " className="image-perfil" />
           </main>
         </section>
-        {/* <SideBar /> */}
+        <SideBar />
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
 

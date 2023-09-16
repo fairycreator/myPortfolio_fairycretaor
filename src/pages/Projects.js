@@ -12,7 +12,7 @@ function ProjectCard({ project }) {
   return (
     <div className="card-project">
       <div className="img-container">
-        <img src={project.src} alt=" " className="img-project" />
+        <img src={project.src} alt={project.name} className="img-project" />
       </div>
       <h2 className="title-project">{project.name}</h2>
       <p>{project.description}</p>
@@ -51,7 +51,7 @@ function Projects() {
   const filteredProjects =
     typeFilter === "all"
       ? projects
-      : projects.filter(({ type }) => type.includes(typeFilter));
+      : projects.filter(({ type }) => type === typeFilter);
 
   return (
     <div>
@@ -87,7 +87,7 @@ function Projects() {
             </div>
             <div className="projects-container">
               {filteredProjects.map((project) => (
-                <ProjectCard key={project.id} project={project} />
+                <ProjectCard key={project.id} project={project} /> // Use id as the key
               ))}
             </div>
           </main>
