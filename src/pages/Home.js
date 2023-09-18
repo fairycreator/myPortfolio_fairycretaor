@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Header from "../components/Header";
 import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
@@ -7,9 +7,25 @@ import "../styles/Home.css";
 import image from "../images/photo portarit man.png";
 import { FiDownload } from "react-icons/fi";
 import MenuMobile from "../components/MenuMobile";
-import Typical from "react-typical";
+import Typed from "typed.js";
 
 function Home() {
+  const typedRef = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(typedRef.current, {
+      strings: ["Front-End Developer", "Web Development Student"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+      showCursor: false,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div>
       <TitleBar />
@@ -26,16 +42,7 @@ function Home() {
               <h1>
                 Andrij Csuhran <span className="span">{"/>"}</span>{" "}
               </h1>
-              <Typical
-                steps={[
-                  "Front-End Developer",
-                  1000,
-                  "Web Development Student",
-                  1000,
-                ]}
-                loop={Infinity}
-                wrapper="h2"
-              />
+              <h2 ref={typedRef}> </h2>
               <a
                 href="https://gitconnected.com/fairycreator/resume"
                 target="_blank"

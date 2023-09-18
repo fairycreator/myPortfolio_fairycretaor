@@ -87,7 +87,7 @@ function Projects() {
             </div>
             <div className="projects-container">
               {filteredProjects.map((project) => (
-                <ProjectCard key={project.id} project={project} /> // Use id as the key
+                <ProjectCard key={project.id} project={project} />
               ))}
             </div>
           </main>
