@@ -10,16 +10,17 @@ const projects = [
     site: "https://brizhak.github.io/project-FullStackFamily-v2/",
     technologies: ["Parcel", "CSS3", "HTML5", "JavaScript"],
   },
-  // {
-  // id: 2,
-  //   type: "front",
-  //   name: "PhoneBook",
-  //   description: "O trivia é um jogo de perguntas e respostas",
-  //   src: "trivia.gif",
-  //   repository: "https://github.com/thiagodanobrega/trivia",
-  //   site: "https://trivia-thiagodanobrega.vercel.app/",
-  //   technologies: ["React", "Redux", "CSS3", "HTML5", "ES6"],
-  // },
+  {
+    id: 2,
+    type: "front",
+    name: "PhoneBook",
+    description:
+      "React-based app featuring user registration, login, and contact management, utilizing a given backend API for operations and JWT for authentication.",
+    src: "phonebook.gif",
+    repository: "https://github.com/fairycreator/goit-react-hw-08-phonebook",
+    site: "https://fairycreator.github.io/goit-react-hw-08-phonebook",
+    technologies: ["React", "Redux", "CSS3", "HTML5", "ES6"],
+  },
   {
     id: 3,
     type: "front",
