@@ -5,7 +5,7 @@ const projects = [
     name: "Bookshelf",
     description:
       "In a team project, we created a two-page website featuring categorized books and a shopping list function, with direct links to book-selling platforms.",
-    src: "bookshelf.png",
+    src: "bookshelf.jpg",
     repository: "https://github.com/brizhak/project-FullStackFamily-v2",
     site: "https://brizhak.github.io/project-FullStackFamily-v2/",
     technologies: ["Parcel", "CSS3", "HTML5", "JavaScript"],
@@ -26,7 +26,7 @@ const projects = [
     name: "Simply Chocolate",
     description:
       "As Scrum Master, I led an agile team to create a responsive e-commerce site for chocolate, coordinating tasks via Trello and Miro.",
-    src: "chokobyte.png",
+    src: "chokobyte.jpg",
     repository: "https://github.com/Paskudas/chocobytebuilders",
     site: "https://paskudas.github.io/chocobytebuilders/",
     technologies: ["HTML5", "Webpack", "CSS3", "JavaScript"],
