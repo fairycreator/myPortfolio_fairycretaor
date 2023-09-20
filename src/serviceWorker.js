@@ -30,14 +30,14 @@ function customSuccess(registration) {
   // Additional code for successful registration
 }
 
-const userHasConsented = window.confirm(
-  "Do you want to enable offline capabilities?"
-);
+// const userHasConsented = window.confirm(
+//   "Do you want to enable offline capabilities?"
+// );
 
 export function register(
   config = { onUpdate: customUpdate, onSuccess: customSuccess }
 ) {
-  if (userHasConsented) {
+  if (navigator.onLine) {
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
 
     if (publicUrl.origin !== window.location.origin) {
