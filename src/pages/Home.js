@@ -4,7 +4,7 @@ import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
 import SideBar from "../components/SideBar";
 import "../styles/Home.css";
-import image from "../images/photo portarit man.png";
+import image from "../images/myappportrait.gif";
 import { FiDownload } from "react-icons/fi";
 import MenuMobile from "../components/MenuMobile";
 import Typed from "typed.js";
