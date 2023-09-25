@@ -27,10 +27,18 @@
   justify-content: center;
 }
 
-.image-perfil {
+.image-profile {
   width: 350px;
   margin-top: 50px;
-  border-radius: 16px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-profile:hover {
+  transform: scale(1.05) translateZ(0);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .btn-download {

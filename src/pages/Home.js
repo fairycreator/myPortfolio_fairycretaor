@@ -53,7 +53,7 @@ function Home() {
                 <FiDownload />
               </a>
             </div>
-            <img src={image} alt=" " className="image-perfil" />
+            <img src={image} alt=" " className="image-profile" />
           </main>
         </section>
         <SideBar />
