@@ -91,9 +91,17 @@
   .image-profile {
     width: 300px;
     margin-top: 100px;
-    border-radius: 24px;
+    border-radius: 5px;
     order: 1;
     margin-bottom: 1rem;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-profile:hover {
+    transform: scale(1.05) translateZ(0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }
 
   .home-content {
