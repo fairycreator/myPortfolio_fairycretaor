@@ -34,7 +34,7 @@ const projects = [
   },
   {
     id: 4,
-    type: "front & back",
+    type: "front",
     name: "Healthy Hub",
     description:
       "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals.",
