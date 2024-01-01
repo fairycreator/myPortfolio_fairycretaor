@@ -33,10 +33,11 @@ const projects = [
     technologies: ["HTML5", "Webpack", "CSS3", "JavaScript"],
   },
   {
+    id: 4,
     type: "front & back",
     name: "Healthy Hub",
     description:
-      "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals. With a focus on user-friendly design and comprehensive features, HealthyHub offers goal tracking, dietary management, exercise routines, and much more.",
+      "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals.",
     src: "healthyhub.png",
     repository: "https://github.com/va7ul/Healthy_life",
     site: "https://va7ul.github.io/Healthy_life/",
