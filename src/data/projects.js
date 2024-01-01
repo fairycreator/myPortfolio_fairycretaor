@@ -32,16 +32,25 @@ const projects = [
     site: "https://paskudas.github.io/chocobytebuilders/",
     technologies: ["HTML5", "Webpack", "CSS3", "JavaScript"],
   },
-  // {
-  //   type: "back",
-  //   name: "Mysql one for all",
-  //   description:
-  //     "Aplicação para treinar conceitos de SQL, como normalização e criação de banco",
-  //   src: "back.png",
-  //   repository: "https://github.com/thiagodanobrega/mysql-one-for-all",
-  //   site: "https://github.com/thiagodanobrega/mysql-one-for-all",
-  //   technologies: ["MySQL"],
-  // },
+  {
+    type: "front & back",
+    name: "Healthy Hub",
+    description:
+      "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals. With a focus on user-friendly design and comprehensive features, HealthyHub offers goal tracking, dietary management, exercise routines, and much more.",
+    src: "healthyhub.png",
+    repository: "https://github.com/va7ul/Healthy_life",
+    site: "https://va7ul.github.io/Healthy_life/",
+    technologies: [
+      "React.js",
+      "Styled Components",
+      "Material-UI",
+      "Node.js",
+      "MongoDB",
+      "Redux for state management",
+      "Formik + Yup for form handling",
+      "Vite for build optimization",
+    ],
+  },
 ];
 
 export default projects;
