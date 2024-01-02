@@ -37,7 +37,7 @@ const projects = [
     type: "front",
     name: "Healthy Hub",
     description:
-      "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals.",
+      "HealthyHub is a cutting-edge health and fitness application designed to help users set and achieve their wellness goals. Team project.",
     src: "healthyhub.png",
     repository: "https://github.com/va7ul/Healthy_life",
     site: "https://va7ul.github.io/Healthy_life/",
@@ -50,6 +50,23 @@ const projects = [
       "Redux for state management",
       "Formik + Yup for form handling",
       "Vite for build optimization",
+    ],
+  },
+  {
+    id: 4,
+    type: "front",
+    name: "Healthy Hub",
+    description:
+      "Explore an extensive list of cars with detailed information, including make, model, year, and amenities. Dynamic catalog, favorites, and interactive UI.",
+    src: "carrental.png",
+    repository:
+      "https://github.com/fairycreator/car-rental-service-application",
+    site: "https://candid-sopapillas-9b352b.netlify.app/",
+    technologies: [
+      "React.js",
+      "Styled Components",
+      "Redux for state management",
+      "Axios",
     ],
   },
 ];
