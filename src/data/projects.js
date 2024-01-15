@@ -53,7 +53,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     type: "front",
     name: "Healthy Hub",
     description:
@@ -70,7 +70,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     type: "back",
     name: "Node.js - Rest Api",
     description:
