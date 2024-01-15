@@ -55,7 +55,7 @@ const projects = [
   {
     id: 5,
     type: "front",
-    name: "Healthy Hub",
+    name: "Car Rental",
     description:
       "Explore an extensive list of cars with detailed information, including make, model, year, and amenities. Dynamic catalog, favorites, and interactive UI.",
     src: "carrental.png",
