@@ -75,7 +75,7 @@ const projects = [
     name: "Node.js - Rest Api",
     description:
       "NodeJS server for users authorization and creating of their contacts books.",
-    src: "Backend",
+    src: "node-api.png",
     repository:
       "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
     site: "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
