@@ -69,6 +69,18 @@ const projects = [
       "Axios",
     ],
   },
+  {
+    id: 4,
+    type: "back",
+    name: "Node.js - Rest Api",
+    description:
+      "NodeJS server for users authorization and creating of their contacts books.",
+    src: "Backend",
+    repository:
+      "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
+    site: "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
+    technologies: ["Cors", "Express", "MongoDb", "Mongoose", "Nodemon", "Joi"],
+  },
 ];
 
 export default projects;
