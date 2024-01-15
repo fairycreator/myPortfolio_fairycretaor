@@ -64,7 +64,6 @@
 }
 
 .links-container {
-  position: absolute;
   display: flex;
   gap: 1.2rem;
   right: 1rem;
