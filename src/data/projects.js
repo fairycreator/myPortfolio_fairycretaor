@@ -81,6 +81,23 @@ const projects = [
     site: "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
     technologies: ["Cors", "Express", "MongoDb", "Mongoose", "Nodemon", "Joi"],
   },
+  {
+    id: 6,
+    type: "front",
+    name: "LearnLingo",
+    description:
+      "Online platform LearnLingo: Dive into new languages with personalized lessons from experienced teachers. Powered by React & Firebase.",
+    src: "learnlingo.png",
+    repository: "https://github.com/fairycreator/language-learning-app",
+    site: "https://jazzy-lebkuchen-850118.netlify.app/",
+    technologies: [
+      "React.js",
+      "Firebase",
+      "Redux for state management",
+      "Firebase-auth",
+      "Firebase-realtime-database",
+    ],
+  },
 ];
 
 export default projects;
