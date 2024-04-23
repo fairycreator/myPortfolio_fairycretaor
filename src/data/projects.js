@@ -98,6 +98,17 @@ const projects = [
       "Firebase-realtime-database",
     ],
   },
+  {
+    id: 7,
+    type: "front",
+    name: "Bussiness website",
+    description:
+      "A React JS Startup and small business website template designed using React and Tailwind CSS.",
+    src: "bussiness_website.png",
+    repository: "https://github.com/fairycreator/business-website",
+    site: "https://soft-kashata-da8e39.netlify.app/",
+    technologies: ["React.js", "Tailwind CSS", "Axios"],
+  },
 ];
 
 export default projects;
