@@ -75,7 +75,7 @@ const projects = [
     name: "Node.js - Rest Api",
     description:
       "NodeJS server for users authorization and creating of their contacts books.",
-    src: "node-api.png",
+    src: "nodeapi.png",
     repository:
       "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
     site: "https://github.com/fairycreator/nodejs--rest-api?tab=readme-ov-file",
@@ -104,7 +104,7 @@ const projects = [
     name: "Bussiness website",
     description:
       "A React JS Startup and small business website template designed using React and Tailwind CSS.",
-    src: "bussiness_website.png",
+    src: "bussinesswebsite.png",
     repository: "https://github.com/fairycreator/business-website",
     site: "https://soft-kashata-da8e39.netlify.app/",
     technologies: ["React.js", "Tailwind CSS", "Axios"],
