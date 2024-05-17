@@ -109,6 +109,16 @@ const projects = [
     site: "https://soft-kashata-da8e39.netlify.app/",
     technologies: ["React.js", "Tailwind CSS", "Axios"],
   },
+  {
+    id: 8,
+    type: "front",
+    name: "CRM",
+    description: "A NextJS application",
+    src: "",
+    repository: "https://github.com/fairycreator/crm",
+    site: "https://soft-kashata-da8e39.netlify.app/",
+    technologies: ["Next.js", "Tailwind CSS", ""],
+  },
 ];
 
 export default projects;
