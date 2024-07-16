@@ -119,6 +119,17 @@ const projects = [
     site: "https://soft-kashata-da8e39.netlify.app/",
     technologies: ["Next.js", "Tailwind CSS", ""],
   },
+  {
+    id: 9,
+    type: "front",
+    name: "CarpatTravel",
+    description:
+      "A streamlined landing page for a travel company showcasing company information, core services, and a form for users to apply and join the team.",
+    src: "",
+    repository: "https://github.com/fairycreator/nextjs-carpat-travel",
+    site: "https://nextjs-carpat-travel.vercel.app/",
+    technologies: ["Next.js", "Tailwind CSS", "React.js"; "TypeScript", "Swiper"],
+  },
 ];
 
 export default projects;
