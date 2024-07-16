@@ -114,7 +114,7 @@ const projects = [
     type: "front",
     name: "CRM",
     description: "A NextJS application",
-    src: "",
+    src: "CarpatTravel.png",
     repository: "https://github.com/fairycreator/crm",
     site: "https://soft-kashata-da8e39.netlify.app/",
     technologies: ["Next.js", "Tailwind CSS", ""],
