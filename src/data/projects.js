@@ -82,7 +82,7 @@ const projects = [
     technologies: ["Cors", "Express", "MongoDb", "Mongoose", "Nodemon", "Joi"],
   },
   {
-    id: 6,
+    id: 7,
     type: "front",
     name: "LearnLingo",
     description:
@@ -99,7 +99,7 @@ const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     type: "front",
     name: "Bussiness website",
     description:
@@ -110,17 +110,17 @@ const projects = [
     technologies: ["React.js", "Tailwind CSS", "Axios"],
   },
   {
-    id: 8,
+    id: 9,
     type: "front",
     name: "CRM",
     description: "A NextJS application",
     src: "CarpatTravel.png",
     repository: "https://github.com/fairycreator/crm",
     site: "https://soft-kashata-da8e39.netlify.app/",
-    technologies: ["Next.js", "Tailwind CSS", ""],
+    technologies: ["Next.js", "Tailwind CSS"],
   },
   {
-    id: 9,
+    id: 10,
     type: "front",
     name: "CarpatTravel",
     description:
@@ -128,7 +128,13 @@ const projects = [
     src: "",
     repository: "https://github.com/fairycreator/nextjs-carpat-travel",
     site: "https://nextjs-carpat-travel.vercel.app/",
-    technologies: ["Next.js", "Tailwind CSS", "React.js"; "TypeScript", "Swiper"],
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "React.js",
+      "TypeScript",
+      "Swiper",
+    ],
   },
 ];
 
